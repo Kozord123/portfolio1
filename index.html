@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kozord</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">O mnie</a></li>
+                    <li><a href="#skills">Umiejętności</a></li>
+                    <li><a href="#projects">Projekty</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <div class="container">
+                <h2>O mnie</h2>
+                <img src="profilowe.png" alt="profilowe" class="profile-pic">
+                <p>Cześć! Jestem Kozord, pełen pasji developer z doświadczeniem w tworzeniu aplikacji w języku Java. Specjalizuję się w tworzeniu skalowalnych aplikacji oraz front-endu stron internetowych.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Umiejętności</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                        <p class="skill-percentage">90%</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                        <p class="skill-percentage">85%</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 20%;"></div>
+                        </div>
+                        <p class="skill-percentage">20%</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <p>Java</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                        <p class="skill-percentage">95%</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <p>Node.js</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 10%;"></div>
+                        </div>
+                        <p class="skill-percentage">10%</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <p>Mongodb</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                        <p class="skill-percentage">85%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projekty</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-modal="modal1">
+                        <img src="project3.png" alt="Projekt 1">
+                        <h3>COMING SOON</h3>
+                        <p>COMING SOON.</p>
+                    </div>
+                    <div class="project-card" data-modal="modal2">
+                        <img src="project3.png" alt="Projekt 2">
+                        <h3>COMING SOON</h3>
+                        <p>COMING SOON.</p>
+                    </div>
+                    <div class="project-card" data-modal="modal4">
+                        <img src="project3.png" alt="Projekt 4">
+                        <h3>COMING SOON</h3>
+                        <p>COMING SOON.</p>
+                    </div>
+                    <div class="project-card" data-modal="modal3">
+                        <img src="project3.png" alt="Projekt 3">
+                        <h3>COMING SOON</h3>
+                        <p>COMING SOON.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>COMING SOON</h2>
+                <img src="project3.png" alt="Projekt 1">
+                <p>COMING SOON.</p>
+            </div>
+        </div>
+
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>COMING SOON</h2>
+                <img src="project3.png" alt="Projekt 2">
+                <p>COMING SOON.</p>
+            </div>
+        </div>
+
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>COMING SOON</h2>
+                <img src="project3.png" alt="Projekt 4">
+                <p>COMING SOON.</p>
+            </div>
+        </div>
+
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>COMING SOON</h2>
+                <img src="project3.png" alt="Projekt 3">
+                <p>COMING SOON.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p> &copy; 2024 kozord. Wszelkie prawa zastrzeżone.</p>
+            <p> Stworzone z ❤ przez: <a href="https://github.com/kozord123">kozord</a></p>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
